@@ -1,0 +1,64 @@
+.wplimit-cart_item_name{
+	margin: 0px;
+    font-weight: bold;
+    background-color: yellow;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    color: #333;
+}
+input#wplimit_woo_bpfd_date_field {
+    width: 180px;
+    height: 55px;
+    border: 1px solid #333;
+    border-radius: 0;
+    display: block;
+    background-color: transparent;
+}
+.wplimit_woo_bpfd_date_field-wrapper label {
+    color: #333;
+    display: inline-block;
+    font-size: 21px;
+    border: none;
+}
+.wplimit_woo_bpfd_date_field-wrapper {
+    padding: 31px 0;
+}
+body.woocommerce-cart p.wplimit-cart_item_name {
+    display: block;
+}
+
+input#wplimit_woo_bpfd_date_field::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ccc;
+    font-size: 16px;
+    line-height: 1;
+}
+input#wplimit_woo_bpfd_date_field:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ccc;
+   font-size: 16px;
+   line-height: 1;
+   opacity:  1;
+}
+input#wplimit_woo_bpfd_date_field::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ccc;
+   font-size: 16px;
+   line-height: 1;
+   opacity:  1;
+}
+input#wplimit_woo_bpfd_date_field:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #ccc;
+   font-size: 16px;
+   line-height: 1;
+}
+input#wplimit_woo_bpfd_date_field::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #ccc;
+   font-size: 16px;
+   line-height: 1;
+}
+
+input#wplimit_woo_bpfd_date_field::placeholder { /* Most modern browsers support this now. */
+   color:    #ccc;
+   font-size: 16px;
+   line-height: 1;
+}

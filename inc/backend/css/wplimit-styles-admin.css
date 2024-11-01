@@ -1,0 +1,10 @@
+.wplimit-cart_item_name{
+	margin: 0px;
+    font-weight: bold;
+    background-color: yellow;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    color: #333;
+}
